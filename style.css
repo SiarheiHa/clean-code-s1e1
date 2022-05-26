@@ -18,8 +18,9 @@
 }
 
 @media (max-width:768px) {
-.image-wrapper { text-align: center;
-}
+  .image-wrapper { 
+    text-align: center;
+  }
 }
 .app-wrapper {
   display: block;
