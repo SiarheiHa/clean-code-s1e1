@@ -11,15 +11,15 @@
         <a class="link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
       </header>
       <main class="app">
-        <section class="add-section">
+        <section class="section">
             <h3 class="title">Add Item</h3>
-            <label for="new-task" class="add-section__label"></label>
+            <label for="new-task" class="section__label"></label>
             <div class="task-row-wrapper">
-              <input id="new-task"class="add-section__text-input text-input" type="text">
-              <button class="button button_add">Add</button>
+              <input id="new-task"class="task-row-wrapper__text-input text-input" type="text">
+              <button class="button">Add</button>
             </div>
         </section>
-        <section class="todo-section">
+        <section class="section">
           <h3 class="title">Todo</h3>
           <ul class="list" id="incomplete-tasks">
             <li class="list__list-item list-item">
@@ -38,11 +38,11 @@
             </li>
           </ul>
         </section> 
-        <setion class="completed-section">
+        <setion class="section section_completed">
           <h3 class="title">Completed</h3>
           <ul class="list" id="completed-tasks">
             <li class="list__list-item list-item">
-              <input class="list-item__checkbox checkbox" type="checkbox" checked>
+              <input class="list-item__checkbox" type="checkbox" checked>
               <label class="list-item__label">See the Doctor</label>
               <input type="text" class="list-item__text-input text-input">
               <button class="button button_edit">Edit</button>
