@@ -88,11 +88,11 @@ button{
 }
 
 /* New Task */
-.add-section__label {
+.section__label {
   display: block;
   margin: 0 0 20px;
 }
-.add-section__text-input {
+.task-row-wrapper__text-input {
   width: 318px;
 }
 
@@ -132,8 +132,8 @@ button{
 }
 
 /* Completed */
-#completed-tasks .list-item__text-input,
-#completed-tasks .list-item__label {
+.section_completed .list-item__text-input,
+.section_completed .list-item__label {
   text-decoration: line-through;
   color: #888;
 }
